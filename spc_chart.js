@@ -49,21 +49,6 @@ const spcChart = {
         let timestamp_min = d3.min(timestamps);
         let timestamp_max = d3.max(timestamps);
 
-        let values_points = {
-            type: 'scatter',
-            x: timestamps,
-            y: values,
-            mode: 'markers',
-            name: values_colname,
-            showlegend: true,
-            hoverinfo: 'all',
-            marker: {
-                color: 'blue',
-                size: 2,
-                symbol: 'circle'
-            }
-        };
-
         let values_daily_nested = d3.nest()
             .key(function (d) {
                 return to_timestamp(d[timestamp_colname]);
@@ -176,7 +161,7 @@ const spcChart = {
             }
         };
 
-        let chart_data = [process_limit_lines, process_mean_line, values_points, values_daily_line, values_histogram]; // ,violation_points]
+        let chart_data = [process_limit_lines, process_mean_line, values_daily_line, values_histogram]; // ,violation_points]
 
         // layout
         let layout = {
