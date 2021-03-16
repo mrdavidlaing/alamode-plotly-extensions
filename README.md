@@ -2,6 +2,8 @@
 
 ## Usage in a Mode Analytics report
 
+Example report: [https://app.mode.com/mrdavidlaing/reports/0c4364284744](https://app.mode.com/mrdavidlaing/reports/0c4364284744) 
+
 1.  Add a named <div> element in the report location you want the chart to appear in, eg: 
 ```html
 <div class="row">
