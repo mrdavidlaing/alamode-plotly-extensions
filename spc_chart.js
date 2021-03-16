@@ -59,7 +59,7 @@ const spcChart = {
             hoverinfo: 'all',
             marker: {
                 color: 'blue',
-                size: 8,
+                size: 2,
                 symbol: 'circle'
             }
         };
