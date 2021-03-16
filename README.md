@@ -4,7 +4,9 @@
 
 Example report: [https://app.mode.com/mrdavidlaing/reports/0c4364284744](https://app.mode.com/mrdavidlaing/reports/0c4364284744) 
 
-1.  Add a named <div> element in the report location you want the chart to appear in, eg: 
+![image](https://user-images.githubusercontent.com/227505/111341377-5f1b8e80-8671-11eb-9729-c0314a82e63f.png)
+
+1.  Add a named `<div>` element in the report location you want the chart to appear in, eg: 
 ```html
 <div class="row">
     <div class="col-md-12">
